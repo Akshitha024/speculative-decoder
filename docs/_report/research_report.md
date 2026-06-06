@@ -38,7 +38,7 @@ Both papers report rank orderings of K and draft strength that match the simulat
 flowchart LR
   A[target profile] --> B[Speculative loop]
   C[draft profile + K] --> B
-  B --> D[DecodeResult (acceptance, latency, cost)]
+  B --> D["DecodeResult (acceptance, latency, cost)"]
   D --> E[5 chart families + summary.json]
 ```
 

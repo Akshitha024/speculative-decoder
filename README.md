@@ -27,7 +27,7 @@ A real two-model run needs both target and draft models loaded simultaneously, w
 flowchart LR
   A[target profile] --> B[Speculative loop]
   C[draft profile + K] --> B
-  B --> D[DecodeResult\n(acceptance, latency, cost)]
+  B --> D["DecodeResult\n(acceptance, latency, cost)"]
   D --> E[5 chart families + summary.json]
 ```
 
