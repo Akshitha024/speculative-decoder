@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/mani/Projects/akshitha-portfolio/projects/speculative-decoder/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mani/Projects/akshitha-portfolio/projects/speculative-decoder
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 8 items
+
+tests/test_decode.py::test_baseline_k0_makes_n_target_calls PASSED       [ 12%]
+tests/test_decode.py::test_speculative_makes_fewer_target_calls PASSED   [ 25%]
+tests/test_decode.py::test_acceptance_rate_increases_with_agreement PASSED [ 37%]
+tests/test_decode.py::test_produces_at_least_n_tokens PASSED             [ 50%]
+tests/test_profiles.py::test_target_more_expensive_than_drafts PASSED    [ 62%]
+tests/test_profiles.py::test_drafts_strictly_ordered_by_agreement PASSED [ 75%]
+tests/test_profiles.py::test_drafts_strictly_ordered_by_latency PASSED   [ 87%]
+tests/test_runner.py::test_runner_writes_summary PASSED                  [100%]
+
+============================== 8 passed in 0.49s ===============================

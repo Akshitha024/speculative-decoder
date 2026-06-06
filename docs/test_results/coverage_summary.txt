@@ -1,0 +1,22 @@
+........                                                                 [100%]
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.13.3-final-0 _______________
+
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+src/specdec/__init__.py                 1      0   100%
+src/specdec/bench/__init__.py           0      0   100%
+src/specdec/bench/sweep.py             12      0   100%
+src/specdec/cli/__init__.py             0      0   100%
+src/specdec/cli/main.py                24     24     0%
+src/specdec/decode/__init__.py          0      0   100%
+src/specdec/decode/speculative.py      35      0   100%
+src/specdec/models/__init__.py          0      0   100%
+src/specdec/models/profiles.py         12      0   100%
+src/specdec/runner.py                  25      0   100%
+src/specdec/types.py                   20      0   100%
+src/specdec/viz/__init__.py             0      0   100%
+src/specdec/viz/charts.py              83      0   100%
+-------------------------------------------------------
+TOTAL                                 212     24    89%
+8 passed in 0.71s
